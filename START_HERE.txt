@@ -1,0 +1,10 @@
+NOIDA HEIGHTS PG
+
+1. Extract this ZIP and keep all files together.
+2. Open README.txt for the full setup steps.
+3. Paste Google_Sheets_Code.gs into Extensions -> Apps Script, run setup() once and approve permissions.
+4. Read the generated owner password from the execution log (View -> Logs). It is shown only once.
+5. Deploy as a Web app (Execute as: Me, Who has access: Anyone) and copy the /exec URL.
+6. Paste that URL into GOOGLE_SHEETS_WEB_APP_URL at the top of BOTH script.js and resident.js.
+7. Host the files over HTTPS, open admin.html, sign in as OWNER001 and change the password under Security.
+8. Replace the stock photos with real photos of the property before going live.
